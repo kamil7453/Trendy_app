@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_salons_fragment"
+            android:icon="@drawable/ic_place"
+            android:title="Salony" />
+        <item
+            android:id="@+id/nav_offer_fragment"
+            android:icon="@drawable/ic_offer"
+            android:title="Oferta" />
+        <item
+            android:id="@+id/nav_about_us_fragment"
+            android:icon="@drawable/ic_about_us"
+            android:title="O nas" />
+        <item
+            android:id="@+id/nav_price_list_fragment"
+            android:icon="@drawable/ic_price_list"
+            android:title="Cennik" />
+        <item
+            android:id="@+id/nav_opinion_fragment"
+            android:icon="@drawable/ic_opinion"
+            android:title="Opinie" />
+    </group>
+
+    <item android:title="Użytkownik">
+        <menu>
+            <item
+                android:id="@+id/nav_visits_fragment"
+                android:icon="@drawable/ic_book"
+                android:title="Moje rezerwacje"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout_fragment"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Wyloguj"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_login_fragment"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Logowanie" />
+            <item
+                android:id="@+id/nav_register_fragment"
+                android:icon="@drawable/ic_baseline_app_registration_24"
+                android:title="Rejestracja" />
+        </menu>
+    </item>
+</menu>

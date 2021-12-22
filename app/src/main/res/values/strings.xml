@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Projekt</string>
+    <string name="open">Otwórz</string>
+    <string name="close">Zamknij</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="oferta">OFERTA</string>
+    <string name="offer_heading_tv">Oferujemy między innymi:</string>
+    <string name="offer_list_tv">
+        <li>Strzyżenie męskie</li>
+        \n <li>Strzyżenie damskie</li>
+        \n <li>Koloryzacja</li>
+        \n <li>Pielęgnacja</li>
+        \n <li>Stylizacja okazjonalna</li>
+        \n <li>Dekoloryzacja</li>
+        \n <li>Czesanie, stylizacja</li>
+    </string>
+    <string name="offer_text">Przekraczamy granice Twoich oczekiwań. Słuchamy i doradzamy. Tworzymy miejsce, w którym dajemy Ci możliwość odkrywania i wyrażania Twojego indywidualnego stylu. Tradycja harmonijnie współgra tu z podążaniem za nowymi trendami. Stawiamy na rozwój i współpracę. Motywujemy się wzajemnie i czerpiemy motywację od Was. Każdy dzień to nowe wyzwanie, któremu wychodzimy naprzeciw z pasją i profesjonalizmem.</string>
+    <string name="about_us">O NAS</string>
+    <string name="about_us_heading">TRENDY Hair Fashion</string>
+    <string name="about_us_text">Salon Trendy Hair Fashion stworzony został z pasji do fryzjerstwa. To miejsce, w którym nasi specjaliści skupiają się przede wszystkim na pielęgnacji. Ich głównym celem jest wykonywanie usług z efektem pięknych włosów, który utrzyma się na długo po wizycie w naszym salonie. Trendy Hair Fashion to miejsce gdzie rozmawiamy i wsłuchujemy się w potrzeby klienta. Łączymy zamiłowanie do fryzjerstwa i miłość do poznawania ludzi. Wiemy, że oba te czynniki to przepis na sukces dla nas i satysfakcję dla klienta.</string>
+    <string name="price_list">CENNIK</string>
+    <string name="price_list_info">Podane ceny mają charakter informacyjny i nie stanowią oferty w myśl Kodeksu Cywilnego. Koszt wykonania usługi jest uzależniony od stanu sierści psa, jego wielkości oraz nakładu pracy groomera - uzgadniany indywidualnie przed rozpoczęciem zlecenia.</string>
+    <string name="list_1_name">
+        Strzyżenie damskie
+        \n\nStrzyżenie męskie
+        \n\nStrzyżenie brody
+        \n\nGrzywka
+    </string>
+    <string name="list_1_price">
+        99 zł
+        \n\n69 zł
+        \n\n30 zł
+        \n\n25 zł
+    </string>
+    <string name="list_2_name">
+        Koloryzacja ze strzyżeniem
+        \n\nDekoloryzacja
+        \n\nModelowanie damskie
+        \n\nLoki
+        \n\nKok ślubny
+
+    </string>
+    <string name="list_2_price">
+        250 zł
+        \n\n200 zł
+        \n\n70 zł
+        \n\n85 zł
+        \n\n160 zł
+    </string>
+    <string name="contact_zach">Umów się na wizytę w naszym salonie</string>
+    <string name="contact_data">
+        Zadzwoń +48 690 660 923
+        \n\nlub napisz: salon@trendy.pl</string>
+    <string name="any_question">Masz pytania?</string>
+    <string name="any_question_info">Zapraszamy do kontaktu! Napisz do nas lub zadzwoń, by dowiedzieć się więcej o naszym salonie. Możesz dopytać o istotne dla Ciebie szczegóły oraz umówić wizytę.
+    \n\nNa Twoją wiadomość odpowiemy najszybciej jak to możliwe.
+    </string>
+    <string name="name">TRENDY HAIR FASHION</string>
+    <string name="salon_address">
+        Żwirki i Wigury 50-54
+        \n90-100 Łódź
+    </string>
+    <string name="open_hours_title">Godziny otwarcia</string>
+    <string name="days">poniedziałek, wtorek, środa, piątek</string>
+    <string name="czw_day">czwartek</string>
+    <string name="open_hours_1">10 00 - 18 00</string>
+    <string name="open_hours_2">12 00 - 20 00</string>
+    <string name="salons_heading">Nasze salony</string>
+    <string name="visits_heading">Twoje wizyty</string>
+</resources>

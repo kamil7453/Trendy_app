@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contact_cl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ContactFragment">
+
+        <TextView
+            android:id="@+id/contact_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/contact_zach"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="26sp"
+            android:textColor="@color/PrimaryColor"
+            android:background="@color/HeadingColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="170dp"
+            android:layout_height="2dp"
+            android:background="@color/HeadingColor"
+            app:layout_constraintStart_toStartOf="@+id/contact_heading_tv"
+            app:layout_constraintTop_toBottomOf="@+id/contact_heading_tv" />
+
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:background="#409843"
+            app:layout_constraintStart_toEndOf="@+id/view_1"
+            app:layout_constraintTop_toBottomOf="@+id/contact_heading_tv" />
+
+        <View
+            android:id="@+id/view_3"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/HeadingColor"
+            app:layout_constraintStart_toEndOf="@+id/view_2"
+            app:layout_constraintTop_toBottomOf="@+id/contact_heading_tv" />
+
+        <TextView
+            android:id="@+id/contact_data_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/contact_data"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/PrimaryColor"
+            android:background="@color/HeadingColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_2" />
+
+        <TextView
+            android:id="@+id/any_question_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="24sp"
+            android:textColor="@color/PrimaryColor"
+            android:text="@string/any_question"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contact_data_tv" />
+
+        <TextView
+            android:id="@+id/any_question_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/any_question_info"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:padding="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/any_question_tv" />
+
+        <TextView
+            android:id="@+id/salon_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/PrimaryColor"
+            android:paddingTop="20dp"
+            android:paddingLeft="40dp"
+            android:text="@string/name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/any_question_info" />
+
+        <TextView
+            android:id="@+id/address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salon_address"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:paddingLeft="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/salon_name" />
+
+        <TextView
+            android:id="@+id/open_hours_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/open_hours_title"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address_tv" />
+
+        <TextView
+            android:id="@+id/days_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/days"
+            android:textSize="16sp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/open_hours_tv" />
+
+        <View
+            android:id="@+id/view_5"
+            android:layout_width="240dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/PrimaryColor"
+            app:layout_constraintStart_toStartOf="@+id/days_tv"
+            app:layout_constraintTop_toBottomOf="@+id/days_tv" />
+
+        <TextView
+            android:id="@+id/open_hours_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/open_hours_1"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_5" />
+
+        <TextView
+            android:id="@+id/day_czw_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/czw_day"
+            android:textSize="16sp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/open_hours_1" />
+
+        <View
+            android:id="@+id/view_6"
+            android:layout_width="65dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/PrimaryColor"
+            app:layout_constraintStart_toStartOf="@+id/day_czw_tv"
+            app:layout_constraintTop_toBottomOf="@+id/day_czw_tv" />
+
+        <TextView
+            android:id="@+id/open_hours_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/open_hours_2"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_6" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="410dp"
+            android:layout_height="400dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/open_hours_2"
+            tools:context=".ContactFragment" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
