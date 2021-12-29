@@ -17,7 +17,7 @@ public class Opinion {
         this.salon = salon;
         this.date = date;
         this.user = user;
-        this.picture = "ImgOpinion/haircut_0.jpg";
+        this.picture = "imgOpinion/haircut_3.jpg";
     }//4arg
 
     public Opinion(String opinion, String salon, Timestamp date, String user, String picture) {

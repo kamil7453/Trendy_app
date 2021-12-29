@@ -34,6 +34,7 @@ public class OpinionRecyclerViewAdapter extends FirestoreRecyclerAdapter<Opinion
 
         holder.tvOpinion.setText(model.getOpinion());
         holder.tvDate.setText(model.getDate().toDate().toString());
+        holder.tvSalon.setText(model.getSalon());
         //long id = model.getId();
         //holder.tvID.setText( String.valueOf(id) );
 

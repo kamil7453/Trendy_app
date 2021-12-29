@@ -67,4 +67,10 @@
     <string name="open_hours_2">12 00 - 20 00</string>
     <string name="salons_heading">Nasze salony</string>
     <string name="visits_heading">Twoje wizyty</string>
+
+    <string-array name="salons">
+        <item>Trendy Pomorska</item>
+        <item>Trendy Piotrkowska</item>
+        <item>Trendy Ogrodowa</item>
+    </string-array>
 </resources>
